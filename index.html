@@ -34,11 +34,11 @@
   <main class="introducao-bg">
     <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl cor-0">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
-        <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
-        <a class="botao" href="./bicicletas.html">Selecione a sua</a>
+        <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="200">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
+        <p class="font-2-l cor-5 fadeInDown" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.</p>
+        <a class="botao fadeInDown" href="./bicicletas.html" data-anime="600">Selecione a sua</a>
       </div>
-      <picture>
+      <picture data-anime="800" class="fadeInDown">
         <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
         <img src="./img/fotos/introducao.jpg" alt="Bicicleta Elétrica preta." width="1280" height="1600">
       </picture>
@@ -78,11 +78,11 @@
   <article class="tecnologia-bg">
     <div class="tecnologia container">
       <div class="tecnologia-conteudo">
-        <span class="cor-5 font-2-l-b ">tecnologia avançada</span>
-        <h2 class="font-1-xxl cor-0">você escolhe as suas cores e componentes<span class="cor-p1">.</span></h2>
-        <p class="font-2-l cor-5">Cada Bikcraft é única e possui a sua identidade. As medidas serão exatas para o seu corpo e altura, garantindo maior conforto e ergonomia na sua pedalada. Você pode também personalizar completamente as suas cores.</p>
-        <a class="link" href="./bicicletas.html">escolha um modelo</a>
-        <div class="tecnologia-vantagens">
+        <span class="cor-5 font-2-l-b fadeInLeft" data-anime="200">tecnologia avançada</span>
+        <h2 class="font-1-xxl cor-0 fadeInLeft" data-anime="200">você escolhe as suas cores e componentes<span class="cor-p1">.</span></h2>
+        <p class="font-2-l cor-5 fadeInLeft" data-anime="400">Cada Bikcraft é única e possui a sua identidade. As medidas serão exatas para o seu corpo e altura, garantindo maior conforto e ergonomia na sua pedalada. Você pode também personalizar completamente as suas cores.</p>
+        <a class="link fadeInLeft" data-anime="600" href="./bicicletas.html">escolha um modelo</a>
+        <div class="tecnologia-vantagens fadeInLeft" data-anime="800">
           <div>
             <img src="img/icones/eletrica.svg" alt="" width="24" height="24">
             <h3 class="font-1-l cor-0">Motor Elétrico</h3>
@@ -96,7 +96,7 @@
         </div>
 
       </div>
-      <div class="tecnologia-imagem">
+      <div class="tecnologia-imagem fadeInRight" data-anime="1000">
         <img src="img/fotos/tecnologia.jpg" alt="Tecnologia foto" width="1200" height="1920">
       </div>
     </div>
@@ -134,7 +134,7 @@
     <div class="seguros container">
       <h2 class="font-1-xxl cor-0">seguros<span class="cor-p1">.</span></h2>
 
-      <div class="seguros-item">
+      <div class="seguros-item fadeInLeft" data-anime="200">
         <h3 class="font-1-xl cor-6">PRATA</h3>
         <span class="font-1-xl cor-0">R$ 199 <span class="font-1-xs cor-6">mensal</span></span>
         <ul class="font-2-m cor-0">
@@ -145,7 +145,7 @@
         </ul>
         <a class="botao secundario" href="./orçamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
       </div>
-      <div class="seguros-item">
+      <div class="seguros-item fadeInRight" data-anime="400">
         <h3 class="font-1-xl cor-p1">OURO</h3>
         <span class="font-1-xl cor-0">R$ 299 <span class="font-1-xs cor-6">mensal</span></span>
         <ul class="font-2-m cor-0">
@@ -200,6 +200,7 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+  <script src="./js/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
